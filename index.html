@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Valkyrie System - The ultimate gaming platform. Experience dark synth action, low-latency cross-play, and next-gen gaming.">
+  <title>VALKYRIE // Next-Gen Gaming Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Grid Effect & Radial Glows -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-dot"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">//</span> VALKYRIE
+      </a>
+      
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Toggle menu" id="mobile-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-action">
+          <a href="#contact" class="btn btn-nav">
+            <span>JOIN SYSTEM</span>
+            <div class="btn-glow"></div>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-bg-container">
+      <img src="assets/hero_bg.png" alt="Futuristic Battlefield" class="hero-bg-image" id="hero-bg-image">
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <div class="hero-content-wrapper container">
+      <div class="hero-text-content reveal-fade-in">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>SEASON 04 // NOW LIVE</span>
+        </div>
+        <h1 class="hero-title">
+          UNLEASH THE<br>
+          <span class="text-glow-red">NEXT GENERATION</span>
+        </h1>
+        <p class="hero-description">
+          Step into Valkyrie. A hyper-responsive, dark synth-fueled competitive ecosystem designed for players who demand absolute performance. Low latency, immersive fidelity, and elite competition.
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#gallery" class="btn btn-primary">
+            <span>EXPLORE GAMES</span>
+            <div class="btn-glow"></div>
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            <span>LEARN MORE</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Floating Stats Widget -->
+      <div class="hero-stats-container reveal-slide-right">
+        <div class="stat-card">
+          <div class="stat-value text-glow-red" data-target="999">0</div>
+          <div class="stat-label">TICK RATE SERVERS</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value text-glow-red" data-target="1500000">0</div>
+          <div class="stat-label">ACTIVE COMBATANTS</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value text-glow-red" data-target="4">0</div>
+          <div class="stat-label">UNIQUE WAR ZONES</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Decorative bottom slope -->
+    <div class="section-divider-bottom">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200,120 L0,120 L0,0 L1200,90 Z" fill="#0d0d12"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header reveal-fade-in">
+        <h2 class="section-title"><span class="logo-accent">//</span> THE ECOSYSTEM</h2>
+        <p class="section-subtitle">Forged in neon and iron, built for pure competitive advantage.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-info reveal-slide-left">
+          <h3 class="about-heading">EXPERIENCE ABSOLUTE IMMERSION</h3>
+          <p class="about-text">
+            Valkyrie isn't just another launcher. It's a high-performance framework tuned down to the microsecond. Our proprietary network protocol ensures your inputs hit the game server before the competition can react.
+          </p>
+
+          <!-- Core Feature Grid -->
+          <div class="feature-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+              </div>
+              <div class="feature-title">Ultra Speed</div>
+              <p class="feature-desc">Fiber-tuned pipelines routing packets across 48 worldwide hubs.</p>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/>
+                  <line x1="7" y1="2" x2="7" y2="22"/>
+                  <line x1="17" y1="2" x2="17" y2="22"/>
+                  <line x1="2" y1="12" x2="22" y2="12"/>
+                  <line x1="2" y1="7" x2="22" y2="7"/>
+                  <line x1="2" y1="17" x2="22" y2="17"/>
+                </svg>
+              </div>
+              <div class="feature-title">Ray-Traced Audio</div>
+              <p class="feature-desc">Dynamic atmospheric acoustics mapping sounds inside virtual spaces.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div class="feature-title">Vanguard Anti-Cheat</div>
+              <p class="feature-desc">Zero-compromise ring-level runtime kernel monitoring.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                  <polyline points="2 17 12 22 22 17"/>
+                  <polyline points="2 12 12 17 22 12"/>
+                </svg>
+              </div>
+              <div class="feature-title">Unified Profile</div>
+              <p class="feature-desc">Take your ranks, cosmetic loadouts, and achievements everywhere.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual reveal-slide-right">
+          <div class="glow-container">
+            <div class="glowing-border-element">
+              <img src="assets/about_img.png" alt="Gaming Setup Mockup" class="about-artwork">
+            </div>
+            <div class="corner-accents">
+              <div class="accent-corner top-left"></div>
+              <div class="accent-corner top-right"></div>
+              <div class="accent-corner bottom-left"></div>
+              <div class="accent-corner bottom-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Game Gallery Section -->
+  <section class="gallery-section" id="gallery">
+    <!-- Top slope transition -->
+    <div class="section-divider-top">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200,0 L0,120 L0,120 L1200,120 Z" fill="#050508"></path>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="section-header reveal-fade-in">
+        <h2 class="section-title"><span class="logo-accent">//</span> THE BATTLEGROUNDS</h2>
+        <p class="section-subtitle">Browse through current combat simulations. Select a world to infiltrate.</p>
+      </div>
+
+      <!-- Gallery Filters -->
+      <div class="gallery-filters reveal-fade-in">
+        <button class="filter-btn active" data-filter="all">ALL SECTORS</button>
+        <button class="filter-btn" data-filter="rpg">RPG</button>
+        <button class="filter-btn" data-filter="scifi">SCI-FI</button>
+        <button class="filter-btn" data-filter="action">ACTION</button>
+        <button class="filter-btn" data-filter="cyberpunk">CYBERPUNK</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Item 1: RPG -->
+        <div class="gallery-item reveal-fade-in" data-category="rpg">
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="assets/gallery_rpg.png" alt="Rage of the Valar RPG" class="gallery-img">
+              <div class="gallery-card-overlay">
+                <span class="plus-icon">+</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-cat">DARK FANTASY RPG</span>
+              <h3 class="gallery-title">Rage of the Valar</h3>
+              <p class="gallery-desc">Slay primeval deities in a dynamic, high-difficulty open world.</p>
+              <div class="gallery-card-footer">
+                <span class="server-status online"><span class="pulse-dot"></span> 12 Servers Online</span>
+                <button class="btn-card-action">ENTER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Sci-Fi -->
+        <div class="gallery-item reveal-fade-in" data-category="scifi">
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="assets/gallery_scifi.png" alt="Aegis Zero Sci-Fi" class="gallery-img">
+              <div class="gallery-card-overlay">
+                <span class="plus-icon">+</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-cat">SPACE FLIGHT SIM</span>
+              <h3 class="gallery-title">Aegis Zero</h3>
+              <p class="gallery-desc">Engage in cinematic starfighter dogfights across red dwarf systems.</p>
+              <div class="gallery-card-footer">
+                <span class="server-status online"><span class="pulse-dot"></span> 8 Servers Online</span>
+                <button class="btn-card-action">ENTER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Action -->
+        <div class="gallery-item reveal-fade-in" data-category="action">
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="assets/gallery_action.png" alt="Sector 9 Shooter" class="gallery-img">
+              <div class="gallery-card-overlay">
+                <span class="plus-icon">+</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-cat">CYBERPUNK SHOOTER</span>
+              <h3 class="gallery-title">Sector 9</h3>
+              <p class="gallery-desc">Dynamic fast-paced third-person combat inside crumbling neon ruins.</p>
+              <div class="gallery-card-footer">
+                <span class="server-status busy"><span class="pulse-dot"></span> 18 Servers Full</span>
+                <button class="btn-card-action">ENTER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Cyberpunk -->
+        <div class="gallery-item reveal-fade-in" data-category="cyberpunk">
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="assets/gallery_cyberpunk.png" alt="Slipstream Overdrive Racing" class="gallery-img">
+              <div class="gallery-card-overlay">
+                <span class="plus-icon">+</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-cat">NEON DOWNHILL DRIFT</span>
+              <h3 class="gallery-title">Slipstream Overdrive</h3>
+              <p class="gallery-desc">Tear through neon rain-drenched highways in customizable electric builds.</p>
+              <div class="gallery-card-footer">
+                <span class="server-status online"><span class="pulse-dot"></span> 15 Servers Online</span>
+                <button class="btn-card-action">ENTER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Access Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-box-wrapper reveal-fade-in">
+        <div class="contact-grid">
+          <!-- Contact Left: Server Status & Details -->
+          <div class="contact-details">
+            <h2 class="contact-title"><span class="logo-accent">//</span> ACCESS CORRIDOR</h2>
+            <p class="contact-desc">
+              Request developer portal access or query server connection modules. Fill the requisition dispatch to initiate sync.
+            </p>
+
+            <div class="status-indicators">
+              <div class="status-indicator-item">
+                <span class="status-label">GLOBAL DATACENTER</span>
+                <div class="status-badge online">
+                  <span class="pulse-dot"></span> ACTIVE (100% UP)
+                </div>
+              </div>
+              <div class="status-indicator-item">
+                <span class="status-label">VANGUARD INJECTION</span>
+                <div class="status-badge online">
+                  <span class="pulse-dot"></span> ARMED
+                </div>
+              </div>
+              <div class="status-indicator-item">
+                <span class="status-label">REGIONAL LATENCY</span>
+                <span class="status-latency text-glow-red">7ms (OPTIMIZED)</span>
+              </div>
+            </div>
+
+            <div class="tech-log">
+              <span class="log-label">TERMINAL SESSION FEED:</span>
+              <pre class="log-terminal">
+SYSTEM: Initializing handshake...
+SYSTEM: SSL key verified.
+SYSTEM: Cryptographic channel open.
+SYSTEM: Ready for client packet injection...</pre>
+            </div>
+          </div>
+
+          <!-- Contact Right: Form -->
+          <div class="contact-form-container">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="input-group">
+                  <input type="text" id="name" name="name" required placeholder=" ">
+                  <label for="name">CODENAME / NAME</label>
+                  <span class="input-line"></span>
+                  <div class="error-msg">Please declare your identity identifier.</div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="input-group">
+                  <input type="email" id="email" name="email" required placeholder=" ">
+                  <label for="email">NEURAL COMMS / EMAIL</label>
+                  <span class="input-line"></span>
+                  <div class="error-msg">Provide a valid digital delivery address.</div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="input-group">
+                  <textarea id="message" name="message" required placeholder=" " rows="4"></textarea>
+                  <label for="message">TRANSMISSION FREQUENCY</label>
+                  <span class="input-line"></span>
+                  <div class="error-msg">Transmission packet cannot be empty.</div>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-submit" id="submitBtn">
+                <span class="btn-text">INITIALIZE SYNC</span>
+                <span class="loader-spinner"></span>
+                <div class="btn-glow"></div>
+              </button>
+            </form>
+
+            <!-- Success Overlay inside the form area -->
+            <div class="form-success-message" id="formSuccessMessage">
+              <div class="success-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <h3>TRANSMISSION INJECTED</h3>
+              <p>Handshake confirmed. Your packet has been queued. Standby for pingback.</p>
+              <button class="btn btn-secondary" id="resetFormBtn">DISPATCH NEW PACKET</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous image">&#10094;</button>
+    <div class="lightbox-content">
+      <img src="" alt="Zoomed game mockup" class="lightbox-img" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption">
+        <h4 class="lightbox-title">Game Title</h4>
+        <p class="lightbox-desc">Game description</p>
+      </div>
+    </div>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next image">&#10095;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="footer-logo logo"><span class="logo-accent">//</span> VALKYRIE</a>
+        <p class="footer-about">The next-generation cloud and bare-metal gaming ecosystem. Unmatched framerates, low latency, and zero cheaters.</p>
+      </div>
+      
+      <div class="footer-links-group">
+        <h4>SECTORS</h4>
+        <ul>
+          <li><a href="#about">The Ecosystem</a></li>
+          <li><a href="#gallery">Battlegrounds</a></li>
+          <li><a href="#contact">Access Corridor</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>COMS MODULES</h4>
+        <ul>
+          <li><a href="#">Security Bulletins</a></li>
+          <li><a href="#">Developer Portal</a></li>
+          <li><a href="#">System Status</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4>SECURE INTEL CORRIDOR</h4>
+        <p>Register your frequency to receive combat patches and hardware drops.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="EMAIL ADDRESS" required class="newsletter-input" aria-label="Email Address">
+          <button type="submit" class="btn btn-newsletter">SYNC</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <div class="footer-copyright">
+        &copy; 2026 VALKYRIE SYSTEMS CORE. ALL SYSTEM LOGS MONITORED.
+      </div>
+      <div class="footer-legal">
+        <a href="#">PRIVACY MODULE</a>
+        <a href="#">LOGICAL CLAUSES</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
